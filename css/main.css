@@ -2,6 +2,11 @@ body {
   background-image: url(../assets/images/background.jpg);
   background-size: cover;
   }
+
+.wrapper {
+  padding: 0 10px;
+}
+
 /* HEADER STYLES************************************/
 h1 {
   text-align: center;
@@ -12,28 +17,20 @@ h1 {
   text-shadow: 2px 2px #F707DB;
   }
 
-#header {
+.header {
   box-shadow: 3px 3px 10px 5px #74F0F2;
-  width: 500px;
-  max-width: 90%;
-  display: block;
-  height: 100px;
+  width: 700px;
+  min-height: 100px;
   text-align: center;
   margin: 10px auto;
   padding-top: 15px;
   }
 
 #score {
-  position: relative;
-  box-shadow: 3px 3px 10px 5px #74F0F2;
-  width: 300px;
-  height: 100px;
-  font-family: Barbie;
   color: #74F0F2;
+  font-family: Barbie;
   font-size: 25pt;
-  left: 550px;
-  bottom: 87px;
-  padding-top: 25px;
+  text-shadow: 2px 2px #F707DB;
 }
 
 h2, h3 {
@@ -60,8 +57,7 @@ h3 {
 #quizContainer {
   padding-bottom: 5px;
   padding-top: 20px;
-  height: 500px;
-  top: 50%;
+  min-height: 500px;
   margin: 5px auto;
   }
 
@@ -75,7 +71,7 @@ h3 {
   color: #B800A8;
   font-size: 25pt;
   margin: 10px auto;
-  }
+}
 
 /* QUESTIONS AND OPTIONS ***********************/
 
@@ -83,12 +79,10 @@ form {
   border: 5px;
   padding-top: 10px;
   padding-left: 10px;
-  float: left;
   width: 70%;
   margin-top: 30px;
   color: #B800A8;
-  margin: 0 auto;
-  }
+}
 
 /* BOXES CONTAINING OPTIONS HERE ********************/
 
